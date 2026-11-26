@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.db
+*.sqlite
+*.sqlite3
+Bills_Data/*.pdf
+Bills_Data/**/*.pdf
+output/*
+!output/llm/
+output/llm/*
+!output/llm/.gitkeep
